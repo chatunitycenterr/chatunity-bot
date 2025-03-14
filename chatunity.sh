@@ -222,6 +222,23 @@ else
 echo -e "\033[01;32m\033[01mNPM è stato installato correttamente.\n\033[0m" 
 fi
 
+echo -e "\e[35m
+██╗███╗░░██╗░██████╗████████╗░█████╗░██╗░░░░░██╗░░░░░  ███╗░░██╗██████╗░███╗░░░███╗
+██║████╗░██║██╔════╝╚══██╔══╝██╔══██╗██║░░░░░██║░░░░░  ████╗░██║██╔══██╗████╗░████║
+██║██╔██╗██║╚█████╗░░░░██║░░░███████║██║░░░░░██║░░░░░  ██╔██╗██║██████╔╝██╔████╔██║
+██║██║╚████║░╚═══██╗░░░██║░░░██╔══██║██║░░░░░██║░░░░░  ██║╚████║██╔═══╝░██║╚██╔╝██║
+██║██║░╚███║██████╔╝░░░██║░░░██║░░██║███████╗███████╗  ██║░╚███║██║░░░░░██║░╚═╝░██║
+╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝  ╚═╝░░╚══╝╚═╝░░░░░╚═╝░░░░░╚═╝\n\e[0m"
+
+echo -e "\033[0;34mNPM verrà installato automaticamente. Attendere un momento, per favore.\nNPM will be installed automatically. Wait a moment please.\n\033[0m"
+if npm install cfonts 2>&1 >/dev/null | grep -E -i -q '(command not found|unable to locate package|E: Could not get lock|debconf: delaying package configuration|Package not found|Failed to fetch|404 Not Found|Hash sum mismatch|503 Service Unavailable|504 Gateway Timeout|408 Request Timeout|Connection timed out|Temporary failure resolving)'; then
+error=$(npm install cfonts 2>&1 >/dev/null)
+echo -e "\033[0;31mErrore: $error\033[0m" 
+echo -e "\033[0;34mImpossibile installare NPM. Verifica la tua connessione a Internet e riprova. Se l'errore persiste, installalo manualmente!!\nIf the error continues, install manually!!\033[0m" 
+else
+echo -e "\033[01;32m\033[01mNPM è stato installato correttamente.\n\033[0m" 
+fi
+
 
 : <<'COMMENT'
 v="${b}\033[1;32m"

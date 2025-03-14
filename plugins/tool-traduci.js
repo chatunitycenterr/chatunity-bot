@@ -5,7 +5,7 @@ let msg = `uso del comando ${usedPrefix + command} (txt)`
 if (!args || !args[0]) return m.reply(msg)  
 let lang = args[0]
 let text = args.slice(1).join(' ')
-const defaultLang = 'es'
+const defaultLang = 'it'
 if ((args[0] || '').length !== 2) {
 lang = defaultLang
 text = args.join(' ')}

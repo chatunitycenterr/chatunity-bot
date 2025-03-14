@@ -33,7 +33,50 @@ let info = `
 
 𝐒𝐂𝐀𝐑𝐈𝐂𝐀 𝐂𝐇𝐀𝐓𝐔𝐍𝐈𝐓𝐘-𝐁𝐎𝐓
 
-https://github.com/chatunitycenterr/chatunity-bot
+Segui questi passaggi per installare ChatUnity Bot correttamente su Termux.
+
+『💬』 ══ •⊰✰⊱• ══ 『💬』
+
+1. Scaricare e installare Termux
+
+Scarica la versione corretta di Termux dal link seguente:
+
+🔗 Scarica Termux 0.119.1
+
+https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/file
+
+Dopo aver scaricato il file APK, installalo sul tuo dispositivo e concedi i permessi richiesti.
+
+『💬』 ══ •⊰✰⊱• ══ 『💬』
+
+2. Configurare Termux
+
+Apri Termux ed esegui il seguente comando:
+
+termux-setup-storage
+
+Quando richiesto, concedi le autorizzazioni necessarie.
+
+『💬』 ══ •⊰✰⊱• ══ 『💬』
+
+3. Installare ChatUnity Bot
+
+Ora esegui il seguente comando per aggiornare Termux:
+
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/chatunitycenterr/chatunity-bot/main/chatunity.sh | bash
+
+✅ Aggiorna la lista dei pacchetti disponibili
+✅ Esegue l’upgrade automatico dei pacchetti installati
+✅ Installa bash, wget e mpv (necessari per il bot)
+✅ Scarica e installa ChatUnity Bot automaticamente
+
+『💬』 ══ •⊰✰⊱• ══ 『💬』
+
+4. Avviare ChatUnity Bot
+
+Dopo l’installazione, potrai avviare il bot utilizzando il comando che verrà mostrato al termine del processo.
+
+Se riscontri problemi, verifica di aver seguito tutti i passaggi correttamente e controlla eventuali messaggi di errore su Termux.
 
 『💬』 ══ •⊰✰⊱• ══ 『💬』
 `.trim() 
