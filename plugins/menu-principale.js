@@ -57,8 +57,8 @@ function generateMenuText(prefix, botName, userCount) {
 🛡  ${prefix}𝐀𝐝𝐦𝐢𝐧
 👥  ${prefix}𝐆𝐫𝐮𝐩𝐩𝐨
 📜  ${prefix}𝐒𝐜𝐫𝐢𝐩𝐭
-🚀 ${prefix}𝐒𝐩𝐞𝐞𝐝𝐭𝐞𝐬𝐭
 🤖  ${prefix}𝐢𝐚
+🚀 ${prefix}𝐏𝐢𝐧𝐠/𝐒𝐩𝐞𝐞𝐝𝐭𝐞𝐬𝐭
 
     『💬』 ══ •⊰✰⊱• ══ 『💬』
 
