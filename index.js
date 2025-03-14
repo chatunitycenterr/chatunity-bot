@@ -7,11 +7,16 @@ import { watchFile, unwatchFile } from 'fs'
 import cfonts from 'cfonts';
 import { createInterface } from 'readline'
 import yargs from 'yargs'
+import { EventEmitter } from 'events';
+
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname) 
 const { name, author } = require(join(__dirname, './package.json')) 
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
+
+// Aumenta il limite dei listener
+EventEmitter.defaultMaxListeners = 20;
 
 say('CHATUNITY\nBot\n2.0', {
     font: 'chrome',
