@@ -58,59 +58,82 @@ export default handler;
 
 function generateMenuText(prefix, botName, userCount) {
     return `
-        
- 『💬』 ══ •⊰✰⊱• ══ 『💬』
-- ${prefix}𝐩𝐥𝐚𝐲 ( 𝐜𝐚𝐧𝐳𝐨𝐧𝐞 + 𝐚𝐫𝐭𝐢𝐬𝐭𝐚 ) 
-- ${prefix}𝐯𝐢𝐝𝐞𝐨 ( 𝐜𝐚𝐧𝐳𝐨𝐧𝐞 + 𝐚𝐫𝐭𝐢𝐬𝐭𝐚 ) 
-- ${prefix}𝐬𝐡𝐚𝐳𝐚𝐦 ( 𝐚𝐮𝐝𝐢𝐨 )
-- ${prefix}𝐦𝐞𝐭𝐞𝐨 ( 𝐜𝐢𝐭𝐭𝐚' )
-- ${prefix}𝐡𝐝 ( 𝐟𝐨𝐭𝐨 )
-- ${prefix}𝐥𝐞𝐠𝐠𝐢 ( 𝐟𝐨𝐭𝐨 )
-- ${prefix}𝐫𝐢𝐦𝐮𝐨𝐯𝐢𝐬𝐟𝐨𝐧𝐝𝐨 ( 𝐟𝐨𝐭𝐨 )
-- ${prefix}𝐬𝐞𝐠𝐚 ( 𝐧𝐨𝐦𝐞 )
-- ${prefix}𝐝𝐢𝐭𝐚𝐥𝐢𝐧𝐨 ( 𝐧𝐨𝐦𝐞 )
-- ${prefix}𝐢𝐧𝐬𝐮𝐥𝐭𝐚 ( 𝐧𝐨𝐦𝐞 )
-- ${prefix}𝐪𝐫𝐜𝐨𝐝𝐞 (  𝐭𝐞𝐬𝐭𝐨 )
-- ${prefix}𝐫𝐢𝐯𝐞𝐥𝐚 ( 𝐟𝐨𝐭𝐨¹ )
-- ${prefix}𝐬𝐭𝐲𝐥𝐞𝐭𝐞𝐱𝐭 ( 𝐭𝐞𝐬𝐭𝐨 )
-- ${prefix}𝐜𝐚𝐥𝐜 ( 𝟏+𝟏 )
-- ${prefix}𝐦𝐬𝐠/𝐚𝐭𝐭𝐢𝐯𝐢𝐭𝐚' @
-- ${prefix}𝐜𝐨𝐧𝐭𝐚𝐩𝐚𝐫𝐨𝐥𝐞 ( 𝐭𝐞𝐬𝐭𝐨 )
-- ${prefix}𝐛𝐞𝐥𝐥𝐨/𝐚 @
-- ${prefix}𝐠𝐚𝐲 @
-- ${prefix}𝐩𝐮𝐭𝐭𝐚𝐧𝐚 @
-- ${prefix}𝐥𝐞𝐬𝐛𝐢𝐜𝐚 @
-- ${prefix}𝐢𝐧𝐬𝐮𝐥𝐭𝐚 @
-- ${prefix}𝐬𝐜𝐨𝐩𝐚 @
-- ${prefix}𝐚𝐛𝐛𝐫𝐚𝐜𝐜𝐢𝐚 @
-- ${prefix}𝐨𝐝𝐢𝐨 @
-- ${prefix}𝐚𝐦𝐨𝐫𝐞 @
-- ${prefix}𝐝𝐨𝐰𝐧 @
-- ${prefix}𝐫𝐢𝐭𝐚𝐫𝐝𝐚𝐭𝐨/a @
-- ${prefix}𝐝𝐢𝐬𝐚𝐛𝐢𝐥𝐞 @
-- ${prefix}𝐦𝐨𝐧𝐠𝐨𝐥𝐨𝐢𝐝𝐞 @
-- ${prefix}𝐝𝐨𝐱 @
-- ${prefix}𝐢𝐝 (𝐠𝐫𝐮𝐩𝐩𝐨)
-- ${prefix}𝐠𝐢𝐭𝐜𝐥𝐨𝐧𝐞
-- ${prefix}𝐢𝐦𝐠
-- ${prefix}𝐬𝐞𝐭𝐢𝐠
-- ${prefix}𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐢𝐠
-- ${prefix}𝐭𝐫𝐢𝐬
-- ${prefix}𝐬𝐩𝐨𝐬𝐚𝐦𝐢
-- ${prefix}𝐜𝐫𝐮𝐬𝐡
-- ${prefix}𝐭𝐨𝐩𝐠𝐚𝐲𝐬
-- ${prefix}𝐭𝐨𝐩𝐧𝐚𝐳𝐢
-- ${prefix}𝐭𝐭𝐩
-- ${prefix}𝐝𝐚𝐝𝐨
-- ${prefix}𝐬𝐭𝐢𝐜𝐤𝐞𝐫 / 𝐬
-- ${prefix}𝐫𝐢𝐦𝐮𝐨𝐯𝐢𝐬𝐟𝐨𝐧𝐝𝐨
-- ${prefix}𝐭𝐨𝐯𝐢𝐝𝐞𝐨
-- ${prefix}𝐭𝐨𝐠𝐢𝐟
-- ${prefix}𝐛𝐨𝐧𝐤
-- ${prefix}𝐩𝐧𝐠
-- ${prefix}𝐬𝐥𝐨𝐭
-- ${prefix}𝐚𝐮𝐭𝐨𝐚𝐝𝐦𝐢𝐧
-『💬』 ══ •⊰✰⊱• ══ 『💬』
+*╔═✦ 🎵 MUSICA & AUDIO ✦═╗*  
+➤ *.play* (canzone + artista) → Riproduce una canzone.  
+➤ *.video* (canzone + artista) → Trova il video di una canzone.  
+➤ *.shazam* (audio) → Riconosce la canzone dall’audio.  
+➤ *.tomp3* (video) → Converte un video in MP3.  
 
-    `;
+*╚══════════════╝*  
+
+*╔✦ 🌍 INFORMAZIONI & UTILITÀ ✦╗*  
+➤ *.meteo* (città) → Mostra il meteo di una città.  
+➤ *.orario* (città) → Mostra l’ora attuale di una città.  
+➤ *.traduci* (testo) → Traduce il testo in un’altra lingua.  
+➤ *.calc* (1+1) → Calcolatrice.  
+➤ *.msg/attività* @ → Mostra l’attività di un utente.  
+➤ *.contaparole* (testo) → Conta le parole di un testo.  
+➤ *.id* (gruppo) → Mostra l’ID del gruppo.  
+➤ *.gitclone* → Clona un repository Git.  
+
+*╚══════════════╝*  
+
+*╔✦ 📷 IMMAGINI & MODIFICA FOTO ✦╗*  
+➤ *.hd* (foto) → Migliora la qualità di una foto.  
+➤ *.rimuovisfondo* (foto) → Rimuove lo sfondo da un’immagine.   
+➤ *.rivela* (foto) → Analizza e rivela informazioni da una foto.  
+➤ *.toimg* (sticker) → Converte uno sticker in immagine.  
+
+*╚══════════════╝*  
+
+*╔═✦ 🎭 TESTO & STILI ✦═╗*  
+➤ *.leggì* (foto) → Legge il testo in un’immagine.  
+➤ *.styletext* (testo) → Cambia lo stile del testo.  
+➤ *.ttp* (testo) → Genera un’immagine con testo.  
+
+*╚══════════════╝*  
+
+*╔✦ 🎮 GIOCHI & DIVERTIMENTO ✦╗*  
+➤ *.tris* → Gioca a Tris.  
+➤ *.dado* → Lancia un dado.  
+➤ *.slot* → Gioca alle slot machine.  
+➤ *.sposami* @ → Proponi un matrimonio virtuale.  
+➤ *.crush* → Scopri chi è la tua cotta.  
+➤ *.topgays* → Classifica dei più gay.  
+➤ *.topnazi* → Classifica dei più nazisti. 
+➤ *.down* → Quanto è?.  
+➤ *.disabile* → Quanto è?.  
+➤ *.ritardato/a* → Quanto è?.
+➤ *.bello/a* → Quanto è?
+
+*╚══════════════╝*  
+
+*╔✦ 🎭 INTERAZIONI SOCIALI ✦╗*  
+➤ *.abbraccia* @ → Dai un abbraccio.  
+➤ *.odio* @ → Esprimi odio per qualcuno.  
+➤ *.amore* @ → Dichiarazione d’amore.  
+➤ *.insulta* (nome/@) → Insulta qualcuno.  
+➤ *.scopa* @ → Fai una battuta su un’azione.  
+
+*╚══════════════╝*  
+
+*╔✦ 🎥 VIDEO & ANIMAZIONI ✦╗*  
+➤ *.tovideo* (gif/sticker) → Converte una GIF o sticker in video.  
+➤ *.togif* (video) → Converte un video in GIF.  
+➤ *.toanime* (foto) → Trasforma un’immagine in stile anime.  
+
+*╚══════════════╝*  
+
+*╔✦ 🛠 STICKERS & MEDIA ✦╗*  
+➤ *.sticker / s* (foto) → Crea uno sticker da un’immagine.  
+➤ *.png* (sticker) → Converte uno sticker in PNG.  
+➤ *.bonk* → Meme del bonk.  
+➤ *.autoadmin* → Imposta amministrazione automatica.  
+
+*╚══════════════╝*  
+
+╔ ✦ ✧ ✦ ════════╗  
+       © 2024 ChatUnity  
+╚════════ ✦ ✧ ✦ ╝
+  `;
 }

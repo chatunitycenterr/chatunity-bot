@@ -1,5 +1,8 @@
 let handler = async (m, { conn, command, text }) => {
     if (!text) throw `Tagga chi desideri abbracciare`;
+    if (m.isReplied) return; // Evita risposte multiple
+    m.isReplied = true; // Segna il messaggio come già risposto
+
     let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender;
     conn.reply(m.chat, `*stai abbracciando @${user.split('@')[0]}*`, m, { mentions: [user, m.sender] });
     
