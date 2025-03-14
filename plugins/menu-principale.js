@@ -17,7 +17,7 @@ const handler = async (message, { conn, usedPrefix }) => {
             },
             externalAdReply: {
                 title: 'Menu Principale',
-                body: 'Versione: 1.0',
+                body: 'Versione: 2.0',
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
@@ -47,9 +47,9 @@ handler.command = /^(menu|comandi)$/i;
 export default handler;
 
 function generateMenuText(prefix, botName, userCount) {
-    return `
-    『💬』 ══ •⊰✰⊱• ══ 『💬』
-          𝐔𝐬𝐚 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭
+    return `╔ ✦ ✧ ✦ ════════╗  
+『💬』 𝐔𝐬𝐚 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 『💬』  
+╚═══════ ✦ ✧ ✦ ═╝
         
 ⚙  ${prefix}𝐅𝐮𝐧𝐳𝐢𝐨𝐧𝐢
 📥  ${prefix}𝐈𝐧𝐬𝐭𝐚𝐥𝐥𝐚
@@ -57,16 +57,17 @@ function generateMenuText(prefix, botName, userCount) {
 🛡  ${prefix}𝐀𝐝𝐦𝐢𝐧
 👥  ${prefix}𝐆𝐫𝐮𝐩𝐩𝐨
 📜  ${prefix}𝐒𝐜𝐫𝐢𝐩𝐭
-🔈  ${prefix}𝐀𝐮𝐝𝐢𝐨
+🚀 ${prefix}𝐒𝐩𝐞𝐞𝐝𝐭𝐞𝐬𝐭
 🤖  ${prefix}𝐢𝐚
 
     『💬』 ══ •⊰✰⊱• ══ 『💬』
 
 𝐔𝐭𝐞𝐧𝐭𝐢: ${userCount}
 𝐀𝐮𝐭𝐨𝐫𝐞: 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
-𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 1.0
-𝐃𝐚𝐭𝐚: ${new Date().toLocaleDateString()}
+𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 2.0
 
-    『💬』 ══ •⊰✰⊱• ══ 『💬』
+╔ ✦ ✧ ✦ ════════╗  
+       © 2024 ChatUnity  
+╚════════ ✦ ✧ ✦ ╝
     `;
 }

@@ -11,7 +11,7 @@ let format = sizeFormatter({
 
 let handler = async (m, { conn, usedPrefix, command }) => {
   let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲`
-  let versioneBot = '1.0' // Specifica la versione del bot
+  let versioneBot = '2.0' // Specifica la versione del bot
   let old = performance.now()
   let neww = performance.now()
   let speed = (neww - old).toFixed(2) // Limita la velocità a 2 decimali
@@ -47,18 +47,27 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   let cpuModel = cpus[0]?.model || 'Unknown Model'
   let cpuSpeed = cpu.speed.toFixed(2)
 
-  let caption = `『💬』 ══ •⊰✰⊱• ══ 『💬』
-🟢 𝐀𝐭𝐭𝐢𝐯𝐢𝐭𝐚': ${clockString(uptime)}
-🚀 𝐕𝐞𝐥𝐨𝐜𝐢𝐭𝐚': ${speed} ms
+  let caption = `╔ ✦ ✧ ✦ ════════╗  
+『💬』 𝙎𝙩𝙖𝙩𝙤 𝙎𝙞𝙨𝙩𝙚𝙢𝙖 『💬』  
+╚═══════ ✦ ✧ ✦ ═╝  
 
-💻 𝐈𝐧𝐟𝐨 𝐒𝐢𝐬𝐭𝐞𝐦𝐚:
-📊 𝐌𝐨𝐝𝐞𝐥𝐥𝐨 𝐂𝐏𝐔: ${cpuModel}
-🔄 𝐕𝐞𝐥𝐨𝐜𝐢𝐭𝐚' 𝐂𝐏𝐔: ${cpuSpeed} MHz
+⌛ 𝐀𝐭𝐭𝐢𝐯𝐢𝐭𝐚'':  ${clockString(uptime)}  
+🚀 𝐕𝐞𝐥𝐨𝐜𝐢𝐭𝐚':  ${speed} ms  
 
-💾 𝐌𝐞𝐦𝐨𝐫𝐢𝐚:
-🟣 𝐑𝐀𝐌: ${format(totalmem() - freemem())} / ${format(totalmem())}
-🔵 𝐑𝐀𝐌 𝐋𝐢𝐛𝐞𝐫𝐚: ${format(freemem())}
-『💬』 ══ •⊰✰⊱• ══ 『💬』`
+💻 𝐈𝐧𝐟𝐨 𝐒𝐢𝐬𝐭𝐞𝐦𝐚:  
+
+🖥 𝐂𝐏𝐔: ${cpuModel}  
+🔄 𝐕𝐞𝐥𝐨𝐜𝐢𝐭𝐚': ${cpuSpeed} MHz  
+
+💾 𝐌𝐞𝐦𝐨𝐫𝐢𝐚:  
+
+🟣 𝐑𝐀𝐌 𝐔𝐬𝐚𝐭𝐚: ${format(totalmem() - freemem())} / ${format(totalmem())}  
+🔵 𝐑𝐀𝐌 𝐋𝐢𝐛𝐞𝐫𝐚: ${format(freemem())}  
+
+╔ ✦ ✧ ✦ ════════╗  
+       𝐕𝐚 𝐭𝐮𝐭𝐭𝐨 𝐛𝐞𝐧𝐞! 🚀  
+╚════════ ✦ ✧ ✦ ╝
+`
 
   const profilePictureUrl = await fetchProfilePictureUrl(conn, m.sender)
 

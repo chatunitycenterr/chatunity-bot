@@ -19,7 +19,7 @@ const handler = async (message, { conn, usedPrefix }) => {
             },
             externalAdReply: {
                 title: 'Menu Principale',
-                body: 'Versione: 1.0',
+                body: 'Versione: 2.0',
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
