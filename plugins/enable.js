@@ -827,7 +827,7 @@ function _0x3748() {
         'DFnLb',
         'TIqJg',
         'kHQWG',
-        'https://telegra.ph/file/00edd0958c94359540a8f.png',
+        'https://i.ibb.co/fYXM9HjG/attivo.png',
         'HwaAQ',
         'CqDUf',
         'data',
