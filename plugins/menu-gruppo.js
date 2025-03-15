@@ -69,13 +69,13 @@ function generateMenuText(prefix, botName, userCount) {
 *╔✦ 🌍 INFORMAZIONI & UTILITÀ ✦╗*  
 ➤ *.meteo* (città) → Mostra il meteo di una città.  
 ➤ *.orario* (città) → Mostra l’ora attuale di una città.  
-➤ *.traduci* (testo) → Traduce il testo in un’altra lingua.  
-➤ *.calc* (1+1) → Calcolatrice.  
+➤ *.traduci* (testo) → Traduce il testo in un’altra lingua.   
 ➤ *.msg/attività* @ → Mostra l’attività di un utente.  
 ➤ *.contaparole* (testo) → Conta le parole di un testo.  
 ➤ *.id* (gruppo) → Mostra l’ID del gruppo.  
 ➤ *.gitclone* → Clona un repository Git.  
-➤ *.Info* → Clona un repository Git.
+➤ *.Info* → Ottieni info su di te o altre persone.
+➤ *.setig* → Imposta il tuo ig.
 
 *╚══════════════╝*  
 
@@ -103,6 +103,7 @@ function generateMenuText(prefix, botName, userCount) {
 ➤ *.crush* → Scopri chi è la tua cotta.  
 ➤ *.topgays* → Classifica dei più gay.  
 ➤ *.topnazi* → Classifica dei più nazi. 
+➤ *.dox* → Doxxa qualcuno.
 ➤ *.down* → Quanto è?.  
 ➤ *.disabile* → Quanto è?.  
 ➤ *.ritardato/a* → Quanto è?.
