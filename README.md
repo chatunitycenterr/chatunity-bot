@@ -52,6 +52,9 @@ ChatUnity-Bot è un bot multifunzionale per WhatsApp, progettato per semplificar
 1. **Configura Termux**:
    ```bash
    termux-setup-storage
+   ```
+   
+   ```bash
    apt update
    pkg install -y git nodejs ffmpeg imagemagick yarn
    ```
