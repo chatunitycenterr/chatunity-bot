@@ -37,8 +37,7 @@ ChatUnity-Bot è un bot multifunzionale per WhatsApp, progettato per semplificar
    termux-setup-storage
    ```
    ```bash
-   apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
-   https://raw.githubusercontent.com/chatunitycenterr/chatunity-bot/main/chatunity.sh | bash
+   apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/chatunitycenterr/chatunity-bot/main/chatunity.sh | bash
    ```
 ---
 
