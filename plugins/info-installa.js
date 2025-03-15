@@ -35,6 +35,8 @@ let info = `
 
 Segui questi passaggi per installare ChatUnity Bot correttamente su Termux.
 
+video yt tutorial https://youtube.com/shorts/qek7wWadhtI?si=MrrA3bLWWAsLmpw6
+
 『💬』 ══ •⊰✰⊱• ══ 『💬』
 
 1. Scaricare e installare Termux
