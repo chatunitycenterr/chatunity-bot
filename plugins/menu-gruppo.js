@@ -76,6 +76,7 @@ function generateMenuText(prefix, botName, userCount) {
 ➤ *.gitclone* → Clona un repository Git.  
 ➤ *.Info* → Ottieni info su di te o altre persone.
 ➤ *.setig* → Imposta il tuo ig.
+➤ *.traduci* → Traduci in italiano.
 
 *╚══════════════╝*  
 
@@ -96,7 +97,7 @@ function generateMenuText(prefix, botName, userCount) {
 
 *╔✦ 🎮 GIOCHI & DIVERTIMENTO ✦╗*  
 ➤ *.tris* → Gioca a Tris.  
-➤ *.dado* → Lancia un dado.  
+➤ *.dado* → Lancia un dad0.  
 ➤ *.slot* → Gioca alle slot machine.
 ➤ *.Zizzania* @ → Scopri i segreti sessuali. 
 ➤ *.sposami* @ → Proponi un matrimonio virtuale.  
