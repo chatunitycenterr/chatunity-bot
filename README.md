@@ -20,7 +20,7 @@ https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(a
 </details> 
 
  #### `✦ 𝐀𝐓𝐓𝐈𝐕𝐀 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭 💬 𝐀𝐔𝐓𝐎𝐌𝐀𝐓𝐈𝐂𝐎 (𝐓𝐄𝐑𝐌𝐔𝐗)`
-   [![blog](https://img.shields.io/badge/Installazione-Automatica-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/shorts/qek7wWadhtI?si=7WRbUz97XAMBC1ZZ) 
+   [![blog](https://img.shields.io/badge/Tutorial-Installazione-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/shorts/qek7wWadhtI?si=7WRbUz97XAMBC1ZZ) 
   ```bash 
 termux-setup-storage 
    ```
