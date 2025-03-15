@@ -65,7 +65,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 🔵 𝐑𝐀𝐌 𝐋𝐢𝐛𝐞𝐫𝐚: ${format(freemem())}  
 
 ╔ ✦ ✧ ✦ ════════╗  
-       𝐕𝐚 𝐭𝐮𝐭𝐭𝐨 𝐛𝐞𝐧𝐞! 🚀  
+        © 2024 ChatUnity   
 ╚════════ ✦ ✧ ✦ ╝
 `
 
