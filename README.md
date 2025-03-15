@@ -1,7 +1,3 @@
-Ecco una versione migliorata e più organizzata del tuo README di GitHub per il progetto **ChatUnity-Bot**. Ho ottimizzato la formattazione, reso il design più accattivante e migliorato la leggibilità:
-
----
-
 <p align="center">
   <img src="https://i.ibb.co/HpkzmrMZ/chatunity-jpg.jpg" alt="ChatUnity-Bot Logo" style="width: 100%; height: auto; max-width: 400px;">
 </p>
@@ -149,5 +145,3 @@ ChatUnity-Bot è un bot multifunzionale per WhatsApp, progettato per semplificar
 </p>
 
 ---
-
-Questa versione è più strutturata, con sezioni chiare e un design più accattivante. Puoi personalizzare ulteriormente i colori o aggiungere GIF/immagini per renderlo ancora più dinamico! 😊
