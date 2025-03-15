@@ -75,6 +75,7 @@ function generateMenuText(prefix, botName, userCount) {
 ➤ *.contaparole* (testo) → Conta le parole di un testo.  
 ➤ *.id* (gruppo) → Mostra l’ID del gruppo.  
 ➤ *.gitclone* → Clona un repository Git.  
+➤ *.Info* → Clona un repository Git.
 
 *╚══════════════╝*  
 
@@ -87,7 +88,7 @@ function generateMenuText(prefix, botName, userCount) {
 *╚══════════════╝*  
 
 *╔═✦ 🎭 TESTO & STILI ✦═╗*  
-➤ *.leggì* (foto) → Legge il testo in un’immagine.  
+➤ *.leggi* (foto) → Legge il testo in un’immagine.  
 ➤ *.styletext* (testo) → Cambia lo stile del testo.  
 ➤ *.ttp* (testo) → Genera un’immagine con testo.  
 
