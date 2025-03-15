@@ -96,11 +96,12 @@ function generateMenuText(prefix, botName, userCount) {
 *╔✦ 🎮 GIOCHI & DIVERTIMENTO ✦╗*  
 ➤ *.tris* → Gioca a Tris.  
 ➤ *.dado* → Lancia un dado.  
-➤ *.slot* → Gioca alle slot machine.  
+➤ *.slot* → Gioca alle slot machine.
+➤ *.Zizzania* @ → Scopri i segreti sessuali. 
 ➤ *.sposami* @ → Proponi un matrimonio virtuale.  
 ➤ *.crush* → Scopri chi è la tua cotta.  
 ➤ *.topgays* → Classifica dei più gay.  
-➤ *.topnazi* → Classifica dei più nazisti. 
+➤ *.topnazi* → Classifica dei più nazi. 
 ➤ *.down* → Quanto è?.  
 ➤ *.disabile* → Quanto è?.  
 ➤ *.ritardato/a* → Quanto è?.
