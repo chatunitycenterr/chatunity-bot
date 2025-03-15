@@ -4,7 +4,7 @@
 
 <h1 align="center">ChatUnity-Bot 🤖</h1>
 <p align="center">
-  <strong>Un bot avanzato per WhatsApp, ricco di funzionalità e facile da configurare!</strong>
+  <strong>Un bot avanzato per WhatsApp, ricco di funzionalità e divertimento!</strong>
 </p>
 
 <p align="center">
