@@ -30,13 +30,15 @@ ChatUnity-Bot è un bot multifunzionale per WhatsApp, progettato per semplificar
 
 ---
 
-## 🛠 **Installa (Termux)**
+## 📥 **Installa (Termux)**
 
 <details>
   <summary><b>Clicca qui per vedere i passaggi</b></summary>
   https://www.mediafire.com/file/0npdmv51pnttps0/com.termux_0.119.1-119_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk/
 
 </details>
+
+---
 
 
 ## 🚀 **Installazione Automatica (Termux)**
