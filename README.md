@@ -11,16 +11,6 @@
   <a href="https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J">
     <img src="https://img.shields.io/badge/Canale_Ufficiale-black?style=for-the-badge&logo=whatsapp" alt="Canale Ufficiale">
   </a>
-  <a href="https://github.com/chatunity-bot/followers">
-    <img src="https://img.shields.io/github/followers/chatunity-bot?color=red&style=flat-square" alt="Followers">
-  </a>
-  <a href="https://github.com/chatunitycenterr/chatunity-bot/stargazers">
-    <img src="https://img.shields.io/github/stars/chatunitycenterr/chatunity-bot?color=blue&style=flat-square" alt="Stargazers">
-  </a>
-  <a href="https://github.com/chatunitycenterr/chatunity-bot/watchers">
-    <img src="https://img.shields.io/github/watchers/chatunitycenterr/chatunity-bot?color=green&style=flat-square" alt="Watchers">
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=chatunity-bot&color=blue&style=flat-square&label=Visite" alt="Profile Views">
 </p>
 
 ---
