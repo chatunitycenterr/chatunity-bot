@@ -17,7 +17,7 @@ const handler = async (message, { conn, usedPrefix }) => {
             },
             externalAdReply: {
                 title: 'Menu Principale',
-                body: 'Versione: 2.0',
+                body: 'Versione: 2.1',
                 mediaType: 1,
                 renderLargerThumbnail: false,
                 previewType: 'thumbnail',
@@ -65,7 +65,7 @@ function generateMenuText(prefix, botName, userCount) {
 
 𝐔𝐭𝐞𝐧𝐭𝐢: ${userCount}
 𝐀𝐮𝐭𝐨𝐫𝐞: 𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲
-𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 2.0
+𝐕𝐞𝐫𝐬𝐢𝐨𝐧𝐞: 2.1
 
 ╔ ✦ ✧ ✦ ════════╗  
        © 2024 ChatUnity  
